@@ -8,7 +8,7 @@
         return name[0].toLowerCase() + name.substr(1);
     }
 
-    function ConstructorInfo(constructor, children, isFactory, forceJsCasing) {
+    function ConstructorInfo(constructor, children, forceJsCasing, isFactory) {
         /// <param name="constructor" type="function" />
         /// <param name="children" type="Object" elementType="ConstructorInfo" />
         this.constructor = constructor;
