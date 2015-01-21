@@ -18,7 +18,7 @@
             return isFactory ? this.constructor(dto) : new this.constructor();
         };
         this.hasChild = function(name) {
-            return this.children ? Boolean(this.children[name]) || Boolean(this.children[toJsCase(name)]) : false;
+            return this.children ? Boolean(this.children[name]) : false;
         };
     }
 
