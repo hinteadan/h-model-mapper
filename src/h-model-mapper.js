@@ -41,4 +41,4 @@
         constructFromDto: constructFromDto
     };
 
-})();
+}).call(this);
